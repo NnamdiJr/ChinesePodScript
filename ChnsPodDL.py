@@ -2,6 +2,7 @@ from requests import session
 from bs4 import BeautifulSoup
 import re
 
+#Code to grab most recent lesson page links
 """
 pages = range(1, 22)
 links_list = []
@@ -24,8 +25,8 @@ with open("links_file.txt", 'rb') as f:
     lesson_links = f.readlines()
 
 payload = {
-    'email': 'nnamdijr@gmail.com',
-    'password': 'modulus01',
+    'email': '...',
+    'password': '...',
     'code': '',
     'url': ''
 }
